@@ -23,7 +23,7 @@ function setup() {
 }
 function draw() {  
   rectMode(CENTER);
-  background(0);
+  background("white");
 
   paper.display();
   ground.display();
@@ -34,7 +34,7 @@ function draw() {
   drawSprites();
 }
 function keyPressed(){
-	if (keyCode === UP_ARROW){
+   if (keyCode === UP_ARROW){
 		Matter.Body.applyForce(paper.body,paper.body.position,{x:105,y:-105})
-	}
+   }
 }
