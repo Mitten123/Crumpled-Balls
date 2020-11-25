@@ -23,7 +23,7 @@ function setup() {
 }
 function draw() {  
   rectMode(CENTER);
-  background("white");
+  background(0);
 
   paper.display();
   ground.display();
