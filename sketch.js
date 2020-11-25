@@ -30,7 +30,7 @@ function draw() {
   dustbin1.display();
   dustbin3.display();
   dustbin2.display();
-  
+	
   drawSprites();
 }
 function keyPressed(){
